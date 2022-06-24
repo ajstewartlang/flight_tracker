@@ -1,0 +1,11 @@
+From within dump1090/
+
+To set up interactive mode (not map): ./dump1090 --interative
+
+OR
+
+To send data to server:
+
+./dump1090 --write-json public_html/data
+cd dump1090/public_html
+python3 -m http.server

@@ -1,0 +1,6 @@
+#!/bin/sh
+
+cd ~/dump1090
+./dump1090 --write-json public_html/data 
+
+

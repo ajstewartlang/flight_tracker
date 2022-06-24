@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cd ~/dump1090/public_html 
+python3 -m http.server 
+
